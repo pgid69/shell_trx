@@ -141,7 +141,7 @@ Then i launch the script with
 Expect spawns telnet and enters interactive mode which allows me
 - to enter my login, password.
 - give the environment variable PS1, the value 'zte-mf10 ' (that match the value of prompt parameter above).
-- to copy in directory /var an executable under the name busybox. This file will be overwritten, but that small trick allows me to set the executable right to the file written (the route lacks the command chmod).
+- to copy in directory /var an executable under the name busybox. This file will be overwritten, but that small trick allows me to set the executable right to the file written (the router lacks the command chmod).
 
 Finally i typed CTRL+C to exit interactive mode and let expect send the 'echo' commands that will write the file '/var/busybox' on the router.
 
